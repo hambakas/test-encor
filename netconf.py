@@ -7,6 +7,7 @@ m = manager.connect(
     password="C1sco12345",
     hostkey_verify=False
 )
+#testRev3
 
 print("#Supported Capabilities (YANG model) : ")
 for capability in m.server_capabilities:
